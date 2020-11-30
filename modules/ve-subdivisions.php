@@ -42,8 +42,8 @@ class Listo_VE_Subdivisions implements Listo {
 			'capital_district' => array( 'a' ),
 			'federal_dependency' => array( 'w' ),
 			'states' => array( 'z', 'b', 'c', 'd', 'e', 'f', 
-			'g', 'h', 'y', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 
-			'p', 'r', 's', 't', 'x', 'u', 'v',
+				'g', 'h', 'y', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 
+				'p', 'r', 's', 't', 'x', 'u', 'v',
 			),
 		);
 	}
