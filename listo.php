@@ -31,6 +31,7 @@ class Listo_Manager {
 			'countries' => 'Listo_Countries',
 			'in_subdivisions' => 'Listo_IN_Subdivisions',
 			'us_subdivisions' => 'Listo_US_Subdivisions',
+			've_subdivisions' => 'Listo_VE_Subdivisions',
 			'currencies' => 'Listo_Currencies',
 			'time_zones' => 'Listo_Time_Zones',
 		);
