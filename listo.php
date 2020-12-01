@@ -29,6 +29,7 @@ class Listo_Manager {
 	private static function get_list_types() {
 		$list_types = array(
 			'countries' => 'Listo_Countries',
+			'ar_subdivisions' => 'Listo_AR_Subdivisions',
 			'in_subdivisions' => 'Listo_IN_Subdivisions',
 			'us_subdivisions' => 'Listo_US_Subdivisions',
 			've_subdivisions' => 'Listo_VE_Subdivisions',
