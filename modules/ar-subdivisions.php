@@ -41,7 +41,8 @@ class Listo_AR_Subdivisions implements Listo {
 			'city' => array( 'c' ),
 			'provinces' => array( 'b', 'k', 'h', 'u', 'x', 'w',
 				'e', 'p', 'y', 'l', 'f', 'm', 'n', 'q', 'r', 'a',
-				'j', 'd', 'z', 's', 'g', 'v', 't' ),
+				'j', 'd', 'z', 's', 'g', 'v', 't',
+			),
 		);
 	}
 }
