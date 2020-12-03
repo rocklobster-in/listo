@@ -30,6 +30,7 @@ class Listo_Manager {
 		$list_types = array(
 			'countries' => 'Listo_Countries',
 			'ar_subdivisions' => 'Listo_AR_Subdivisions',
+			'br_subdivisions' => 'Listo_BR_Subdivisions',
 			'in_subdivisions' => 'Listo_IN_Subdivisions',
 			'us_subdivisions' => 'Listo_US_Subdivisions',
 			've_subdivisions' => 'Listo_VE_Subdivisions',
