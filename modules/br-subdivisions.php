@@ -44,8 +44,8 @@ class Listo_BR_Subdivisions implements Listo {
 			'federal_district' => array( 'df' ),
 			'states' => array( 'ac', 'al', 'ap', 'am', 'ba', 'ce',
 				'es', 'go', 'ma', 'mt', 'ms', 'mg', 'pa', 'pb', 'pr',
-				'pe',	'pi', 'rj', 'rn', 'rs', 'ro', 'rr', 'sc', 'sp',
-				'se',	'to',
+				'pe', 'pi', 'rj', 'rn', 'rs', 'ro', 'rr', 'sc', 'sp',
+				'se', 'to',
 			),
 		);
 	}
