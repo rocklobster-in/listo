@@ -36,6 +36,7 @@ class Listo_Manager {
 			'co_subdivisions' => 'Listo_CO_Subdivisions',
 			'cr_subdivisions' => 'Listo_CR_Subdivisions',
 			'cu_subdivisions' => 'Listo_CU_Subdivisions',
+			'ec_subdivisions' => 'Listo_EC_Subdivisions',
 			'in_subdivisions' => 'Listo_IN_Subdivisions',
 			'us_subdivisions' => 'Listo_US_Subdivisions',
 			've_subdivisions' => 'Listo_VE_Subdivisions',
