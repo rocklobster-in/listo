@@ -38,6 +38,7 @@ class Listo_Manager {
 			'cu_subdivisions' => 'Listo_CU_Subdivisions',
 			'ec_subdivisions' => 'Listo_EC_Subdivisions',
 			'in_subdivisions' => 'Listo_IN_Subdivisions',
+			'sv_subdivisions' => 'Listo_SV_Subdivisions',
 			'us_subdivisions' => 'Listo_US_Subdivisions',
 			've_subdivisions' => 'Listo_VE_Subdivisions',
 			'currencies' => 'Listo_Currencies',
