@@ -41,6 +41,7 @@ class Listo_Manager {
 			'hn_subdivisions' => 'Listo_HN_Subdivisions',
 			'ht_subdivisions' => 'Listo_HT_Subdivisions',
 			'in_subdivisions' => 'Listo_IN_Subdivisions',
+			'mx_subdivisions' => 'Listo_MX_Subdivisions',
 			'sv_subdivisions' => 'Listo_SV_Subdivisions',
 			'us_subdivisions' => 'Listo_US_Subdivisions',
 			've_subdivisions' => 'Listo_VE_Subdivisions',
