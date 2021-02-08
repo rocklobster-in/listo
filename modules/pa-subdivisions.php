@@ -27,7 +27,7 @@ class Listo_PA_Subdivisions implements Listo {
 
 	public static function groups() {
 		return array(
-			'provinces' => array( '1', '4', '2', '3', '5', '6', '7', '8', '10', '9',),
+			'provinces' => array( '1', '4', '2', '3', '5', '6', '7', '8', '10', '9' ),
 			'indigenous_regions' => array( 'em', 'ky', 'nb' ),
 		);
 	}
