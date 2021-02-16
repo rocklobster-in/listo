@@ -49,6 +49,7 @@ class Listo_Manager {
 			'py_subdivisions' => 'Listo_PY_Subdivisions',
 			'sv_subdivisions' => 'Listo_SV_Subdivisions',
 			'us_subdivisions' => 'Listo_US_Subdivisions',
+			'uy_subdivisions' => 'Listo_UY_Subdivisions',
 			've_subdivisions' => 'Listo_VE_Subdivisions',
 			'currencies' => 'Listo_Currencies',
 			'time_zones' => 'Listo_Time_Zones',
