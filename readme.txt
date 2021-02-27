@@ -1,9 +1,9 @@
 === Listo ===
-Contributors: takayukister
+Contributors: takayukister, yordansoares
 Donate link: https://contactform7.com/donate/
 Tags: list, countries, subdivisions, states, currencies
 Requires at least: 5.3
-Tested up to: 5.5
+Tested up to: 5.7
 Stable tag: 1.2.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
