@@ -16,32 +16,34 @@ Listo is a simple plugin that supplies other plugins and themes with commonly us
 
 Listo currently has the following lists and subgroups.
 
-1.	Countries (countries) &mdash; A list of countries and dependent territories based on the [ISO 3166](https://en.wikipedia.org/wiki/ISO_3166-1) standard (249 items).
+* Countries (countries) &mdash; A list of countries and dependent territories based on the [ISO 3166](https://en.wikipedia.org/wiki/ISO_3166-1) standard (249 items).
 
 	Subgroups:
 	* un &mdash; Members of the United Nations (193 items)
 	* olympic &mdash; Countries and dependent territories that have their National Olympic Committee (205 items)
 
-2.	U.S. Subdivisions (us_subdivisions) &mdash; The list of subdivisions of the United States based on the [ISO 3166-2:US](https://en.wikipedia.org/wiki/ISO_3166-2:US) standard (57 items).
+* U.S. Subdivisions (us_subdivisions) &mdash; The list of subdivisions of the United States based on the [ISO 3166-2:US](https://en.wikipedia.org/wiki/ISO_3166-2:US) standard (57 items).
 
 	Subgroups:
 	* states (50 items)
 	* districts (1 item; District of Columbia)
 	* outlying_areas (6 items)
 
-3.	Currencies (currencies) &mdash; A list of currencies based on the [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) standard (156 items).
+* Currencies (currencies) &mdash; A list of currencies based on the [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) standard (156 items).
 
 	Subgroups: None
 
-4.	Time Zones (time_zones) &mdash; UTC offsets.
+* Time Zones (time_zones) &mdash; UTC offsets.
 
 	Subgroups: None
 
-5.	Subdivisions of India (in_subdivisions) &mdash; The list of subdivisions of India based on the [ISO 3166-2:IN](https://en.wikipedia.org/wiki/ISO_3166-2:IN) standard (36 items).
+* Subdivisions of India (in_subdivisions) &mdash; The list of subdivisions of India based on the [ISO 3166-2:IN](https://en.wikipedia.org/wiki/ISO_3166-2:IN) standard (36 items).
 
 	Subgroups:
 	* states (29 items)
 	* union_territories (7 items)
+
+* [Subdivisions of Latin American countries](https://github.com/takayukister/listo/issues/1)
 
 == Installation ==
 
@@ -50,22 +52,6 @@ Listo currently has the following lists and subgroups.
 
 == Changelog ==
 
-= 1.2.3 =
+= 1.3 =
 
-* REST API: Adds the `permission_callback` argument to the endpoint definition.
-
-= 1.2.2 =
-
-* "Stable tag" refers to trunk.
-
-= 1.2.1 =
-
-* Modified some code following the WordPress coding standard.
-* Confirmed compatibility with the current WordPress.
-* Language files have moved to translate.wordpress.org so removed them from the plugin package.
-
-= 1.2 =
-
-* Added a REST API endpoint.
-* Added the in_subdivisions (Subdivisions of India) module.
-* Updated the olympic group of the Countries list module based on the countries and dependent territories that have their National Olympic Committee.
+* New lists: Subdivisions of Latin American countries
