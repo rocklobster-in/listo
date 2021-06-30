@@ -1,6 +1,6 @@
 <?php
 /**
- * The list of subdivisions of Uruguay based on ISO 3166-2:CH standard.
+ * The list of subdivisions of Switzerland based on ISO 3166-2:CH standard.
  *
  * Source: https://en.wikipedia.org/wiki/ISO_3166-2:CH ISO 3166-2:CH
  */
