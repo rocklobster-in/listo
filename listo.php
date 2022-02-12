@@ -94,7 +94,7 @@ class Listo_Manager {
 			return self::$lists[$cloak_ticket];
 		}
 
-		self::load_textdomain( $locale );
+		switch_to_locale( $locale );
 
 		$items = call_user_func( array( $class, 'items' ) );
 
@@ -109,39 +109,12 @@ class Listo_Manager {
 			}
 		}
 
+		restore_previous_locale();
+
 		self::$lists[$cloak_ticket] = $items;
 		return $items;
 	}
 
-	private static function load_textdomain( $locale = '' ) {
-		if ( ! did_action( 'init' ) ) {
-			return false;
-		}
-
-		static $last_locale = '';
-		$domain = 'listo';
-
-		if ( '' == $locale or 'en_US' == $locale ) {
-			unload_textdomain( $domain );
-			return false;
-		}
-
-		if ( $last_locale and $locale == $last_locale ) {
-			return false;
-		}
-
-		unload_textdomain( $domain );
-
-		$mofile = sprintf( '%s-%s.mo', $domain, $locale );
-
-		if ( load_textdomain( $domain, WP_LANG_DIR . '/plugins/' . $mofile )
-		or load_textdomain( $domain, LISTO_LANGUAGES_DIR . '/' . $mofile ) ) {
-			$last_locale = $locale;
-			return true;
-		}
-
-		return false;
-	}
 }
 
 function listo( $type, $args = '' ) {
