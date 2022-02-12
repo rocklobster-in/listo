@@ -2,8 +2,8 @@
 Contributors: takayukister, yordansoares
 Donate link: https://contactform7.com/donate/
 Tags: list, countries, subdivisions, states, currencies
-Requires at least: 5.5
-Tested up to: 5.7
+Requires at least: 5.8
+Tested up to: 5.9
 Stable tag: 1.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -52,6 +52,6 @@ Listo currently has the following lists and subgroups.
 
 == Changelog ==
 
-= 1.3 =
+= 1.4 =
 
-* New lists: Subdivisions of Latin American countries
+* Uses `switch_to_locale()` to switch locale.

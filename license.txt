@@ -1,4 +1,4 @@
-Listo WordPress Plugin, 2014-2021 Takayuki Miyoshi
+Listo WordPress Plugin, 2014-2022 Takayuki Miyoshi
 Listo is distributed under the terms of the GNU GPL
 
 This program is free software; you can redistribute it and/or modify
