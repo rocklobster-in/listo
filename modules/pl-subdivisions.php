@@ -2,7 +2,7 @@
 /**
  * The list of subdivisions of Poland based on ISO 3166-2:SV standard.
  *
- * Source: https://en.wikipedia.org/wiki/ISO_3166-2:SV ISO 3166-2:SV
+ * Source: https://en.wikipedia.org/wiki/ISO_3166-2:PL
  */
 class Listo_PL_Subdivisions implements Listo {
 	private function __construct() {}
