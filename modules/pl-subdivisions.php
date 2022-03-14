@@ -1,6 +1,6 @@
 <?php
 /**
- * The list of subdivisions of El Salvador based on ISO 3166-2:SV standard.
+ * The list of subdivisions of Poland based on ISO 3166-2:SV standard.
  *
  * Source: https://en.wikipedia.org/wiki/ISO_3166-2:SV ISO 3166-2:SV
  */
