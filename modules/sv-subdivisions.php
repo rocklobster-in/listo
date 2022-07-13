@@ -1,9 +1,10 @@
 <?php
 /**
- * The list of subdivisions of El Salvador based on ISO 3166-2:SV standard.
+ * Subdivisions of El Salvador based on ISO 3166-2:SV standard
  *
- * Source: https://en.wikipedia.org/wiki/ISO_3166-2:SV ISO 3166-2:SV
+ * @link https://en.wikipedia.org/wiki/ISO_3166-2:SV
  */
+
 class Listo_SV_Subdivisions implements Listo {
 	private function __construct() {}
 
