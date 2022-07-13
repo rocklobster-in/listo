@@ -52,6 +52,10 @@ Listo currently has the following lists and subgroups.
 
 == Changelog ==
 
+= 1.5 =
+
+* Adds a module for subdivisions of Poland.
+
 = 1.4 =
 
 * Uses `switch_to_locale()` to switch locale.
