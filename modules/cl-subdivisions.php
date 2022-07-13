@@ -1,9 +1,10 @@
 <?php
 /**
- * The list of subdivisions of Chile based on ISO 3166-2:CL standard.
+ * Subdivisions of Chile based on ISO 3166-2:CL standard
  *
- * Source: https://en.wikipedia.org/wiki/ISO_3166-2:CL ISO 3166-2:CL
+ * @link https://en.wikipedia.org/wiki/ISO_3166-2:CL
  */
+
 class Listo_CL_Subdivisions implements Listo {
 	private function __construct() {}
 
