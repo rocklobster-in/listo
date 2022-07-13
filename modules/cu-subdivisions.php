@@ -1,9 +1,10 @@
 <?php
 /**
- * The list of subdivisions of Cuba based on ISO 3166-2:CU standard.
+ * Subdivisions of Cuba based on ISO 3166-2:CU standard
  *
- * Source: https://en.wikipedia.org/wiki/ISO_3166-2:CU ISO 3166-2:CU
+ * @link https://en.wikipedia.org/wiki/ISO_3166-2:CU
  */
+
 class Listo_CU_Subdivisions implements Listo {
 	private function __construct() {}
 

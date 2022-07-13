@@ -1,9 +1,10 @@
 <?php
 /**
- * The list of subdivisions of Dominican Republic based on ISO 3166-2:DO standard.
+ * Subdivisions of Dominican Republic based on ISO 3166-2:DO standard
  *
- * Source: https://en.wikipedia.org/wiki/ISO_3166-2:DO ISO 3166-2:DO
+ * @link https://en.wikipedia.org/wiki/ISO_3166-2:DO
  */
+
 class Listo_DO_Subdivisions implements Listo {
 	private function __construct() {}
 

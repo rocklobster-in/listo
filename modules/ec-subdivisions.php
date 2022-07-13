@@ -1,9 +1,10 @@
 <?php
 /**
- * The list of subdivisions of Ecuador based on ISO 3166-2:EC standard.
+ * Subdivisions of Ecuador based on ISO 3166-2:EC standard
  *
- * Source: https://en.wikipedia.org/wiki/ISO_3166-2:EC ISO 3166-2:EC
+ * @link https://en.wikipedia.org/wiki/ISO_3166-2:EC
  */
+
 class Listo_EC_Subdivisions implements Listo {
 	private function __construct() {}
 
