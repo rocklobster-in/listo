@@ -1,9 +1,10 @@
 <?php
 /**
- * The list of subdivisions of Paraguay based on ISO 3166-2:PY standard.
+ * Subdivisions of Paraguay based on ISO 3166-2:PY standard
  *
- * Source: https://en.wikipedia.org/wiki/ISO_3166-2:PY ISO 3166-2:PY
+ * @link https://en.wikipedia.org/wiki/ISO_3166-2:PY
  */
+
 class Listo_PY_Subdivisions implements Listo {
 	private function __construct() {}
 
