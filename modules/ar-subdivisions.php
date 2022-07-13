@@ -1,9 +1,10 @@
 <?php
 /**
- * The list of subdivisions of Argentina based on ISO 3166-2:AR standard.
+ * Subdivisions of Argentina based on ISO 3166-2:AR standard
  *
- * Source: https://en.wikipedia.org/wiki/ISO_3166-2:AR ISO 3166-2:AR
+ * @link https://en.wikipedia.org/wiki/ISO_3166-2:AR
  */
+
 class Listo_AR_Subdivisions implements Listo {
 	private function __construct() {}
 

@@ -1,9 +1,10 @@
 <?php
 /**
- * The list of subdivisions of Bolivia based on ISO 3166-2:BO standard.
+ * Subdivisions of Bolivia based on ISO 3166-2:BO standard
  *
- * Source: https://en.wikipedia.org/wiki/ISO_3166-2:BO ISO 3166-2:BO
+ * @link https://en.wikipedia.org/wiki/ISO_3166-2:BO
  */
+
 class Listo_BO_Subdivisions implements Listo {
 	private function __construct() {}
 
