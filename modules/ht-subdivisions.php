@@ -1,9 +1,10 @@
 <?php
 /**
- * The list of subdivisions of Haiti based on ISO 3166-2:HT standard.
+ * Subdivisions of Haiti based on ISO 3166-2:HT standard
  *
- * Source: https://en.wikipedia.org/wiki/ISO_3166-2:HT ISO 3166-2:HT
+ * @link https://en.wikipedia.org/wiki/ISO_3166-2:HT
  */
+
 class Listo_HT_Subdivisions implements Listo {
 	private function __construct() {}
 

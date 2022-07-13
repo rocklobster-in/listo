@@ -1,9 +1,10 @@
 <?php
 /**
- * The list of subdivisions of Nicaragua based on ISO 3166-2:NI standard.
+ * Subdivisions of Nicaragua based on ISO 3166-2:NI standard
  *
- * Source: https://en.wikipedia.org/wiki/ISO_3166-2:NI ISO 3166-2:NI
+ * @link https://en.wikipedia.org/wiki/ISO_3166-2:NI
  */
+
 class Listo_NI_Subdivisions implements Listo {
 	private function __construct() {}
 

@@ -1,9 +1,10 @@
 <?php
 /**
- * The list of subdivisions of Honduras based on ISO 3166-2:HN standard.
+ * Subdivisions of Honduras based on ISO 3166-2:HN standard
  *
- * Source: https://en.wikipedia.org/wiki/ISO_3166-2:HN ISO 3166-2:HN
+ * @link https://en.wikipedia.org/wiki/ISO_3166-2:HN
  */
+
 class Listo_HN_Subdivisions implements Listo {
 	private function __construct() {}
 

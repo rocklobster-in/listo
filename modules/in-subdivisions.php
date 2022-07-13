@@ -1,9 +1,10 @@
 <?php
 /**
- * The list of subdivisions of India based on ISO 3166-2:IN standard.
+ * Subdivisions of India based on ISO 3166-2:IN standard
  *
- * Source: https://en.wikipedia.org/wiki/ISO_3166-2:IN ISO 3166-2:IN
+ * @link https://en.wikipedia.org/wiki/ISO_3166-2:IN
  */
+
 class Listo_IN_Subdivisions implements Listo {
 	private function __construct() {}
 
