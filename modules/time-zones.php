@@ -1,9 +1,10 @@
 <?php
 /**
- * The list of time zones (UTC offsets).
+ * The list of time zones (UTC offsets)
  *
- * Source: https://en.wikipedia.org/wiki/Time_zone Time zone
+ * @link https://en.wikipedia.org/wiki/Time_zone
  */
+
 class Listo_Time_Zones implements Listo {
 	private function __construct() {}
 
