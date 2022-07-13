@@ -1,9 +1,10 @@
 <?php
 /**
- * The list of subdivisions of Guatemala based on ISO 3166-2:GT standard.
+ * Subdivisions of Guatemala based on ISO 3166-2:GT standard
  *
- * Source: https://en.wikipedia.org/wiki/ISO_3166-2:GT ISO 3166-2:GT
+ * @link https://en.wikipedia.org/wiki/ISO_3166-2:GT
  */
+
 class Listo_GT_Subdivisions implements Listo {
 	private function __construct() {}
 
