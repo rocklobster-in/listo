@@ -1,12 +1,13 @@
 <?php
 /**
- * The list of currencies based on ISO 4217 standard.
- *
- * Source: https://en.wikipedia.org/wiki/ISO_4217 ISO 4217
+ * Currencies based on ISO 4217 standard
  *
  * Some special codes for funds, complementary currencies, precious metals
  * and used in testing are excluded.
+ *
+ * @link https://en.wikipedia.org/wiki/ISO_4217
  */
+
 class Listo_Currencies implements Listo {
 	private function __construct() {}
 
