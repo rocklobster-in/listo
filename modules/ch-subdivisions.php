@@ -1,9 +1,10 @@
 <?php
 /**
- * The list of subdivisions of Switzerland based on ISO 3166-2:CH standard.
+ * Subdivisions of Switzerland based on ISO 3166-2:CH standard
  *
- * Source: https://en.wikipedia.org/wiki/ISO_3166-2:CH ISO 3166-2:CH
+ * @link https://en.wikipedia.org/wiki/ISO_3166-2:CH
  */
+
 class Listo_CH_Subdivisions implements Listo {
 	private function __construct() {}
 
