@@ -1,9 +1,10 @@
 <?php
 /**
- * The list of subdivisions of Brazil based on ISO 3166-2:BR standard.
+ * Subdivisions of Brazil based on ISO 3166-2:BR standard
  *
- * Source: https://en.wikipedia.org/wiki/ISO_3166-2:BR ISO 3166-2:BR
+ * @link https://en.wikipedia.org/wiki/ISO_3166-2:BR
  */
+
 class Listo_BR_Subdivisions implements Listo {
 	private function __construct() {}
 
