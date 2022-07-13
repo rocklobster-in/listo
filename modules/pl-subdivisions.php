@@ -1,9 +1,10 @@
 <?php
 /**
- * The list of subdivisions of Poland based on ISO 3166-2:PL standard.
+ * Subdivisions of Poland based on ISO 3166-2:PL standard
  *
- * Source: https://en.wikipedia.org/wiki/ISO_3166-2:PL
+ * @link https://en.wikipedia.org/wiki/ISO_3166-2:PL
  */
+
 class Listo_PL_Subdivisions implements Listo {
 	private function __construct() {}
 

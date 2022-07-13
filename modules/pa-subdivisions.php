@@ -1,9 +1,10 @@
 <?php
 /**
- * The list of subdivisions of Panama based on ISO 3166-2:PA standard.
+ * Subdivisions of Panama based on ISO 3166-2:PA standard
  *
- * Source: https://en.wikipedia.org/wiki/ISO_3166-2:PA ISO 3166-2:PA
+ * @link https://en.wikipedia.org/wiki/ISO_3166-2:PA
  */
+
 class Listo_PA_Subdivisions implements Listo {
 	private function __construct() {}
 

@@ -1,9 +1,10 @@
 <?php
 /**
- * The list of subdivisions of Peru based on ISO 3166-2:PE standard.
+ * Subdivisions of Peru based on ISO 3166-2:PE standard
  *
- * Source: https://en.wikipedia.org/wiki/ISO_3166-2:PE ISO 3166-2:PE
+ * @link https://en.wikipedia.org/wiki/ISO_3166-2:PE
  */
+
 class Listo_PE_Subdivisions implements Listo {
 	private function __construct() {}
 

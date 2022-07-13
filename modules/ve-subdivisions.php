@@ -1,9 +1,10 @@
 <?php
 /**
- * The list of subdivisions of Venezuela based on ISO 3166-2:VE standard.
+ * Subdivisions of Venezuela based on ISO 3166-2:VE standard
  *
- * Source: https://en.wikipedia.org/wiki/ISO_3166-2:VE ISO 3166-2:VE
+ * @link https://en.wikipedia.org/wiki/ISO_3166-2:VE
  */
+
 class Listo_VE_Subdivisions implements Listo {
 	private function __construct() {}
 
@@ -41,8 +42,8 @@ class Listo_VE_Subdivisions implements Listo {
 		return array(
 			'capital_district' => array( 'a' ),
 			'federal_dependency' => array( 'w' ),
-			'states' => array( 'z', 'b', 'c', 'd', 'e', 'f', 
-				'g', 'h', 'y', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 
+			'states' => array( 'z', 'b', 'c', 'd', 'e', 'f',
+				'g', 'h', 'y', 'i', 'j', 'k', 'l', 'm', 'n', 'o',
 				'p', 'r', 's', 't', 'x', 'u', 'v',
 			),
 		);

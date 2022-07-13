@@ -1,9 +1,10 @@
 <?php
 /**
- * The list of subdivisions of Uruguay based on ISO 3166-2:UY standard.
+ * Subdivisions of Uruguay based on ISO 3166-2:UY standard
  *
- * Source: https://en.wikipedia.org/wiki/ISO_3166-2:UY ISO 3166-2:UY
+ * @link https://en.wikipedia.org/wiki/ISO_3166-2:UY
  */
+
 class Listo_UY_Subdivisions implements Listo {
 	private function __construct() {}
 
