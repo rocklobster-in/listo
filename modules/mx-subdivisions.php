@@ -1,9 +1,10 @@
 <?php
 /**
- * The list of subdivisions of Mexico based on ISO 3166-2:MX standard.
+ * Subdivisions of Mexico based on ISO 3166-2:MX standard
  *
- * Source: https://en.wikipedia.org/wiki/ISO_3166-2:MX ISO 3166-2:MX
+ * @link https://en.wikipedia.org/wiki/ISO_3166-2:MX
  */
+
 class Listo_MX_Subdivisions implements Listo {
 	private function __construct() {}
 
