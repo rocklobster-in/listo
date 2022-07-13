@@ -1,9 +1,10 @@
 <?php
 /**
- * The list of subdivisions of Colombia based on ISO 3166-2:CO standard.
+ * Subdivisions of Colombia based on ISO 3166-2:CO standard
  *
- * Source: https://en.wikipedia.org/wiki/ISO_3166-2:CO ISO 3166-2:CO
+ * @link https://en.wikipedia.org/wiki/ISO_3166-2:CO
  */
+
 class Listo_CO_Subdivisions implements Listo {
 	private function __construct() {}
 

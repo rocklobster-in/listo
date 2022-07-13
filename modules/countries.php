@@ -1,9 +1,10 @@
 <?php
 /**
- * The list of countries and dependent territories based on ISO 3166 standard.
+ * Countries and dependent territories based on ISO 3166 standard
  *
- * Source: https://en.wikipedia.org/wiki/ISO_3166-1 ISO 3166-1
+ * @link https://en.wikipedia.org/wiki/ISO_3166-1
  */
+
 class Listo_Countries implements Listo {
 	private function __construct() {}
 

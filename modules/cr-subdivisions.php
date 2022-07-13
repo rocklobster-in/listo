@@ -1,9 +1,10 @@
 <?php
 /**
- * The list of subdivisions of Costa Rica based on ISO 3166-2:CR standard.
+ * Subdivisions of Costa Rica based on ISO 3166-2:CR standard
  *
- * Source: https://en.wikipedia.org/wiki/ISO_3166-2:CR ISO 3166-2:CR
+ * @link https://en.wikipedia.org/wiki/ISO_3166-2:CR
  */
+
 class Listo_CR_Subdivisions implements Listo {
 	private function __construct() {}
 
