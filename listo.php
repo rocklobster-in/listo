@@ -95,8 +95,6 @@ class Listo_Manager {
 			return self::$lists[$cloak_ticket];
 		}
 
-		switch_to_locale( $locale );
-
 		$items = call_user_func( array( $class, 'items' ) );
 
 		if ( $group and is_callable( array( $class, 'groups' ) ) ) {
@@ -109,8 +107,6 @@ class Listo_Manager {
 				);
 			}
 		}
-
-		restore_previous_locale();
 
 		self::$lists[$cloak_ticket] = $items;
 		return $items;
