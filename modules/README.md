@@ -6,7 +6,7 @@
 Countries and dependent territories based on ISO 3166.
 
 List code:
-* `countries`
+* [`countries`](./countries.php)
 
 Subgroups:
 * `un`
@@ -18,7 +18,7 @@ Subgroups:
 Currencies based on ISO 4217. Some special codes for funds, complementary currencies, precious metals and used in testing are excluded.
 
 List code:
-* `currencies`
+* [`currencies`](./currencies.php)
 
 
 ## Time zones
@@ -26,7 +26,7 @@ List code:
 The list of time zones (UTC offsets).
 
 List code:
-* `time_zones`
+* [`time_zones`](./time-zones.php)
 
 
 ## Subdivisions of Argentina
@@ -34,7 +34,7 @@ List code:
 Subdivisions of Argentina based on ISO 3166-2:AR.
 
 List code:
-* `ar_subdivisions`
+* [`ar_subdivisions`](./ar-subdivisions.php)
 
 Subgroups:
 * `city`
@@ -46,7 +46,7 @@ Subgroups:
 Subdivisions of Bolivia based on ISO 3166-2:BO.
 
 List code:
-* `bo_subdivisions`
+* [`bo_subdivisions`](./bo-subdivisions.php)
 
 
 ## Subdivisions of Brazil
@@ -54,7 +54,7 @@ List code:
 Subdivisions of Brazil based on ISO 3166-2:BR.
 
 List code:
-* `br_subdivisions`
+* [`br_subdivisions`](./br-subdivisions.php)
 
 Subgroups:
 * `federal_district`
@@ -66,7 +66,7 @@ Subgroups:
 Subdivisions of Switzerland based on ISO 3166-2:CH.
 
 List code:
-* `ch_subdivisions`
+* [`ch_subdivisions`](./ch-subdivisions.php)
 
 
 ## Subdivisions of Chile
@@ -74,7 +74,7 @@ List code:
 Subdivisions of Chile based on ISO 3166-2:CL.
 
 List code:
-* `cl_subdivisions`
+* [`cl_subdivisions`](./cl-subdivisions.php)
 
 
 ## Subdivisions of Colombia
@@ -82,7 +82,7 @@ List code:
 Subdivisions of Colombia based on ISO 3166-2:CO.
 
 List code:
-* `co_subdivisions`
+* [`co_subdivisions`](./co-subdivisions.php)
 
 Subgroups:
 * `capital_district`
@@ -94,7 +94,7 @@ Subgroups:
 Subdivisions of Costa Rica based on ISO 3166-2:CR.
 
 List code:
-* `cr_subdivisions`
+* [`cr_subdivisions`](./cr-subdivisions.php)
 
 
 ## Subdivisions of Cuba
@@ -102,7 +102,7 @@ List code:
 Subdivisions of Cuba based on ISO 3166-2:CU.
 
 List code:
-* `cu_subdivisions`
+* [`cu_subdivisions`](./cu-subdivisions.php)
 
 Subgroups:
 * `special_municipality`
@@ -114,7 +114,7 @@ Subgroups:
 Subdivisions of Dominican Republic based on ISO 3166-2:DO.
 
 List code:
-* `do_subdivisions`
+* [`do_subdivisions`](./do-subdivisions.php)
 
 Subgroups:
 * `district`
@@ -127,7 +127,7 @@ Subgroups:
 Subdivisions of Ecuador based on ISO 3166-2:EC.
 
 List code:
-* `ec_subdivisions`
+* [`ec_subdivisions`](./ec-subdivisions.php)
 
 
 ## Subdivisions of Guatemala
@@ -135,7 +135,7 @@ List code:
 Subdivisions of Guatemala based on ISO 3166-2:GT.
 
 List code:
-* `gt_subdivisions`
+* [`gt_subdivisions`](./gt-subdivisions.php)
 
 
 ## Subdivisions of Honduras
@@ -143,7 +143,7 @@ List code:
 Subdivisions of Honduras based on ISO 3166-2:HN.
 
 List code:
-* `hn_subdivisions`
+* [`hn_subdivisions`](./hn-subdivisions.php)
 
 
 ## Subdivisions of Haiti
@@ -151,7 +151,7 @@ List code:
 Subdivisions of Haiti based on ISO 3166-2:HT.
 
 List code:
-* `ht_subdivisions`
+* [`ht_subdivisions`](./ht-subdivisions.php)
 
 
 ## Subdivisions of India
@@ -159,7 +159,7 @@ List code:
 Subdivisions of India based on ISO 3166-2:IN.
 
 List code:
-* `in_subdivisions`
+* [`in_subdivisions`](./in-subdivisions.php)
 
 Subgroups:
 * `states`
@@ -171,7 +171,7 @@ Subgroups:
 Subdivisions of Mexico based on ISO 3166-2:MX.
 
 List code:
-* `mx_subdivisions`
+* [`mx_subdivisions`](./mx-subdivisions.php)
 
 Subgroups:
 * `capital`
@@ -183,7 +183,7 @@ Subgroups:
 Subdivisions of Nicaragua based on ISO 3166-2:NI.
 
 List code:
-* `ni_subdivisions`
+* [`ni_subdivisions`](./ni-subdivisions.php)
 
 Subgroups:
 * `departments`
@@ -195,7 +195,7 @@ Subgroups:
 Subdivisions of Panama based on ISO 3166-2:PA.
 
 List code:
-* `pa_subdivisions`
+* [`pa_subdivisions`](./pa-subdivisions.php)
 
 Subgroups:
 * `provinces`
@@ -207,7 +207,7 @@ Subgroups:
 Subdivisions of Peru based on ISO 3166-2:PE.
 
 List code:
-* `pe_subdivisions`
+* [`pe_subdivisions`](./pe-subdivisions.php)
 
 Subgroups:
 * `municipality`
@@ -219,7 +219,7 @@ Subgroups:
 Subdivisions of Poland based on ISO 3166-2:PL.
 
 List code:
-* `pl_subdivisions`
+* [`pl_subdivisions`](./pl-subdivisions.php)
 
 
 ## Subdivisions of Paraguay
@@ -227,7 +227,7 @@ List code:
 Subdivisions of Paraguay based on ISO 3166-2:PY.
 
 List code:
-* `py_subdivisions`
+* [`py_subdivisions`](./py-subdivisions.php)
 
 Subgroups:
 * `capital`
@@ -239,7 +239,7 @@ Subgroups:
 Subdivisions of El Salvador based on ISO 3166-2:SV.
 
 List code:
-* `sv_subdivisions`
+* [`sv_subdivisions`](./sv-subdivisions.php)
 
 
 ## Subdivisions of the United States
@@ -247,7 +247,7 @@ List code:
 Subdivisions of the United States based on ISO 3166-2:US.
 
 List code:
-* `us_subdivisions`
+* [`us_subdivisions`](./us-subdivisions.php)
 
 Subgroups:
 * `states`
@@ -260,7 +260,7 @@ Subgroups:
 Subdivisions of Uruguay based on ISO 3166-2:UY.
 
 List code:
-* `uy_subdivisions`
+* [`uy_subdivisions`](./uy-subdivisions.php)
 
 
 ## Subdivisions of Venezuela
@@ -268,7 +268,7 @@ List code:
 Subdivisions of Venezuela based on ISO 3166-2:VE.
 
 List code:
-* `ve_subdivisions`
+* [`ve_subdivisions`](./ve-subdivisions.php)
 
 Subgroups:
 * `capital_district`
