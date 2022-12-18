@@ -2,9 +2,9 @@
 Contributors: takayukister, yordansoares
 Donate link: https://contactform7.com/donate/
 Tags: list, countries, subdivisions, states, currencies
-Requires at least: 5.9
-Tested up to: 6.0
-Stable tag: 1.4
+Requires at least: 6.0
+Tested up to: 6.1
+Stable tag: 1.5
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -22,6 +22,10 @@ Listo currently supports [27 lists](https://github.com/takayukister/listo/tree/t
 1. Activate the plugin through the 'Plugins' menu in WordPress.
 
 == Changelog ==
+
+= 1.6 =
+
+* Removes the `switch_to_locale()` and `restore_previous_locale()` calls.
 
 = 1.5 =
 
