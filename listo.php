@@ -13,7 +13,7 @@
  */
 
 define( 'LISTO_VERSION', '1.7-dev' );
-define( 'LISTO_PLUGIN_DIR', dirname( __FILE__ ) );
+define( 'LISTO_PLUGIN_DIR', __DIR__ );
 define( 'LISTO_MODULES_DIR', path_join( LISTO_PLUGIN_DIR, 'modules' ) );
 define( 'LISTO_LANGUAGES_DIR', path_join( LISTO_PLUGIN_DIR, 'languages' ) );
 
