@@ -1,16 +1,16 @@
 <?php
 /*
-Plugin Name: Listo
-Plugin URI: https://contactform7.com/listo/
-Description: Listo is a simple plugin that supplies commonly used lists to other plugins and themes.
-Author: Takayuki Miyoshi
-Author URI: https://ideasilo.wordpress.com/
-License: GPL v2 or later
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
-Version: 1.7-dev
-Requires at least: 6.2
-Requires PHP: 7.4
-*/
+ * Plugin Name: Listo
+ * Plugin URI: https://contactform7.com/listo/
+ * Description: Listo is a simple plugin that supplies commonly used lists to other plugins and themes.
+ * Author: Takayuki Miyoshi
+ * Author URI: https://ideasilo.wordpress.com/
+ * License: GPL v2 or later
+ * License URI: https://www.gnu.org/licenses/gpl-2.0.html
+ * Version: 1.7-dev
+ * Requires at least: 6.2
+ * Requires PHP: 7.4
+ */
 
 define( 'LISTO_VERSION', '1.7-dev' );
 define( 'LISTO_PLUGIN_DIR', dirname( __FILE__ ) );
