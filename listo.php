@@ -7,12 +7,12 @@
  * Author URI: https://ideasilo.wordpress.com/
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
- * Version: 1.7-dev
+ * Version: 1.7
  * Requires at least: 6.2
  * Requires PHP: 7.4
  */
 
-define( 'LISTO_VERSION', '1.7-dev' );
+define( 'LISTO_VERSION', '1.7' );
 define( 'LISTO_PLUGIN_DIR', __DIR__ );
 define( 'LISTO_MODULES_DIR', path_join( LISTO_PLUGIN_DIR, 'modules' ) );
 define( 'LISTO_LANGUAGES_DIR', path_join( LISTO_PLUGIN_DIR, 'languages' ) );
