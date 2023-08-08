@@ -4,7 +4,7 @@ Donate link: https://contactform7.com/donate/
 Tags: list, countries, subdivisions, states, currencies
 Requires at least: 6.2
 Requires PHP: 7.4
-Tested up to: 6.1
+Tested up to: 6.3
 Stable tag: 1.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -23,6 +23,10 @@ Listo currently supports [27 lists](https://github.com/takayukister/listo/tree/t
 1. Activate the plugin through the 'Plugins' menu in WordPress.
 
 == Changelog ==
+
+= 1.7 =
+
+* Requires WordPress 6.2+ and PHP 7.4+.
 
 = 1.6 =
 
