@@ -176,7 +176,7 @@ class Listo_Countries implements Listo {
 			'nga' => _x( "Nigeria", 'countries', 'listo' ),
 			'nic' => _x( "Nicaragua", 'countries', 'listo' ),
 			'niu' => _x( "Niue", 'countries', 'listo' ),
-			'nld' => _x( "Netherlands", 'countries', 'listo' ),
+			'nld' => _x( "Netherlands, Kingdom of the", 'countries', 'listo' ),
 			'nor' => _x( "Norway", 'countries', 'listo' ),
 			'npl' => _x( "Nepal", 'countries', 'listo' ),
 			'nru' => _x( "Nauru", 'countries', 'listo' ),
