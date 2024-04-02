@@ -236,7 +236,7 @@ class Listo_Countries implements Listo {
 			'ton' => _x( "Tonga", 'countries', 'listo' ),
 			'tto' => _x( "Trinidad and Tobago", 'countries', 'listo' ),
 			'tun' => _x( "Tunisia", 'countries', 'listo' ),
-			'tur' => _x( "Turkey", 'countries', 'listo' ),
+			'tur' => _x( "Türkiye", 'countries', 'listo' ),
 			'tuv' => _x( "Tuvalu", 'countries', 'listo' ),
 			'twn' => _x( "Taiwan, Province of China", 'countries', 'listo' ),
 			'tza' => _x( "Tanzania, United Republic of", 'countries', 'listo' ),
