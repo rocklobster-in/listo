@@ -56,7 +56,7 @@ class Listo_Countries implements Listo {
 			'chn' => _x( "China", 'countries', 'listo' ),
 			'civ' => _x( "Côte d'Ivoire", 'countries', 'listo' ),
 			'cmr' => _x( "Cameroon", 'countries', 'listo' ),
-			'cod' => _x( "Congo, the Democratic Republic of the", 'countries', 'listo' ),
+			'cod' => _x( "Congo, Democratic Republic of the", 'countries', 'listo' ),
 			'cog' => _x( "Congo", 'countries', 'listo' ),
 			'cok' => _x( "Cook Islands", 'countries', 'listo' ),
 			'col' => _x( "Colombia", 'countries', 'listo' ),
