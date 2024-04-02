@@ -221,7 +221,7 @@ class Listo_Countries implements Listo {
 			'svk' => _x( "Slovakia", 'countries', 'listo' ),
 			'svn' => _x( "Slovenia", 'countries', 'listo' ),
 			'swe' => _x( "Sweden", 'countries', 'listo' ),
-			'swz' => _x( "Swaziland", 'countries', 'listo' ),
+			'swz' => _x( "Eswatini", 'countries', 'listo' ),
 			'sxm' => _x( "Sint Maarten (Dutch part)", 'countries', 'listo' ),
 			'syc' => _x( "Seychelles", 'countries', 'listo' ),
 			'syr' => _x( "Syrian Arab Republic", 'countries', 'listo' ),
