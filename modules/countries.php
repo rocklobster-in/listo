@@ -89,7 +89,7 @@ class Listo_Countries implements Listo {
 			'fro' => _x( "Faroe Islands", 'countries', 'listo' ),
 			'fsm' => _x( "Micronesia, Federated States of", 'countries', 'listo' ),
 			'gab' => _x( "Gabon", 'countries', 'listo' ),
-			'gbr' => _x( "United Kingdom", 'countries', 'listo' ),
+			'gbr' => _x( "United Kingdom of Great Britain and Northern Ireland", 'countries', 'listo' ),
 			'geo' => _x( "Georgia", 'countries', 'listo' ),
 			'ggy' => _x( "Guernsey", 'countries', 'listo' ),
 			'gha' => _x( "Ghana", 'countries', 'listo' ),
