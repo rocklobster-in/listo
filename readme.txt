@@ -2,7 +2,7 @@
 Contributors: takayukister, yordansoares
 Donate link: https://contactform7.com/donate/
 Tags: list, countries, subdivisions, states, currencies
-Requires at least: 6.2
+Requires at least: 6.4
 Requires PHP: 7.4
 Tested up to: 6.3
 Stable tag: 1.6
