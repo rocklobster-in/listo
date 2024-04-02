@@ -68,7 +68,7 @@ class Listo_Countries implements Listo {
 			'cxr' => _x( "Christmas Island", 'countries', 'listo' ),
 			'cym' => _x( "Cayman Islands", 'countries', 'listo' ),
 			'cyp' => _x( "Cyprus", 'countries', 'listo' ),
-			'cze' => _x( "Czech Republic", 'countries', 'listo' ),
+			'cze' => _x( "Czechia", 'countries', 'listo' ),
 			'deu' => _x( "Germany", 'countries', 'listo' ),
 			'dji' => _x( "Djibouti", 'countries', 'listo' ),
 			'dma' => _x( "Dominica", 'countries', 'listo' ),
