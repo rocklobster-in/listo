@@ -154,7 +154,7 @@ class Listo_Countries implements Listo {
 			'mdv' => _x( "Maldives", 'countries', 'listo' ),
 			'mex' => _x( "Mexico", 'countries', 'listo' ),
 			'mhl' => _x( "Marshall Islands", 'countries', 'listo' ),
-			'mkd' => _x( "Macedonia, the former Yugoslav Republic of", 'countries', 'listo' ),
+			'mkd' => _x( "North Macedonia", 'countries', 'listo' ),
 			'mli' => _x( "Mali", 'countries', 'listo' ),
 			'mlt' => _x( "Malta", 'countries', 'listo' ),
 			'mmr' => _x( "Myanmar", 'countries', 'listo' ),
