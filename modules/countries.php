@@ -246,7 +246,7 @@ class Listo_Countries implements Listo {
 			'ury' => _x( "Uruguay", 'countries', 'listo' ),
 			'usa' => _x( "United States of America", 'countries', 'listo' ),
 			'uzb' => _x( "Uzbekistan", 'countries', 'listo' ),
-			'vat' => _x( "Holy See (Vatican City State)", 'countries', 'listo' ),
+			'vat' => _x( "Holy See", 'countries', 'listo' ),
 			'vct' => _x( "Saint Vincent and the Grenadines", 'countries', 'listo' ),
 			'ven' => _x( "Venezuela, Bolivarian Republic of", 'countries', 'listo' ),
 			'vgb' => _x( "Virgin Islands, British", 'countries', 'listo' ),
