@@ -62,8 +62,8 @@ class Listo_Manager {
 		return apply_filters( 'listo_list_types', $list_types );
 	}
 
-	public static function get_list_items( $type, $args = '' ) {
-		$args = wp_parse_args( $args, array(
+	public static function get_list_items( $type, $options = '' ) {
+		$options = wp_parse_args( $options, array(
 			'group' => '',
 			'locale' => 'en_US',
 		) );
@@ -89,8 +89,8 @@ class Listo_Manager {
 			return false;
 		}
 
-		$group = trim( $args['group'] );
-		$locale = trim( $args['locale'] );
+		$group = trim( $options['group'] );
+		$locale = trim( $options['locale'] );
 		$cloak_ticket = md5( $type . $group . $locale );
 
 		if ( isset( self::$lists[$cloak_ticket] ) ) {
@@ -116,6 +116,6 @@ class Listo_Manager {
 
 }
 
-function listo( $type, $args = '' ) {
-	return Listo_Manager::get_list_items( $type, $args );
+function listo( $type, $options = '' ) {
+	return Listo_Manager::get_list_items( $type, $options );
 }
