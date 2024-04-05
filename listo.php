@@ -66,6 +66,8 @@ class Listo_Manager {
 		$options = wp_parse_args( $options, array(
 			'group' => '',
 			'locale' => 'en_US',
+			'orderby' => 'key',
+			'order' => 'ASC',
 		) );
 
 		$list_types = self::get_list_types();
@@ -91,7 +93,9 @@ class Listo_Manager {
 
 		$group = trim( $options['group'] );
 		$locale = trim( $options['locale'] );
-		$cloak_ticket = md5( $type . $group . $locale );
+		$orderby = trim( $options['orderby'] );
+		$order = trim( $options['order'] );
+		$cloak_ticket = md5( $type . $group . $locale . $orderby . $order );
 
 		if ( isset( self::$lists[$cloak_ticket] ) ) {
 			return self::$lists[$cloak_ticket];
@@ -107,6 +111,20 @@ class Listo_Manager {
 					$items,
 					array_fill_keys( $groups[$group], '' )
 				);
+			}
+		}
+
+		if ( 'value' === strtolower( $orderby ) ) {
+			if ( 'DESC' === strtoupper( $order ) ) {
+				arsort( $items );
+			} else {
+				asort( $items );
+			}
+		} else {
+			if ( 'DESC' === strtoupper( $order ) ) {
+				krsort( $items );
+			} else {
+				ksort( $items );
 			}
 		}
 
