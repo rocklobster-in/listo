@@ -61,7 +61,7 @@ class Listo_Countries implements Listo {
 			'cok' => _x( "Cook Islands", 'countries', 'listo' ),
 			'col' => _x( "Colombia", 'countries', 'listo' ),
 			'com' => _x( "Comoros", 'countries', 'listo' ),
-			'cpv' => _x( "Cape Verde", 'countries', 'listo' ),
+			'cpv' => _x( "Cabo Verde", 'countries', 'listo' ),
 			'cri' => _x( "Costa Rica", 'countries', 'listo' ),
 			'cub' => _x( "Cuba", 'countries', 'listo' ),
 			'cuw' => _x( "Curaçao", 'countries', 'listo' ),
