@@ -231,12 +231,12 @@ class Listo_TelephoneCountryCodes implements Listo {
 			'vir' => '+1',
 			'vnm' => '+84',
 			'vut' => '+678',
-			'wlf' => _x( "Wallis and Futuna", 'countries', 'listo' ),
-			'wsm' => _x( "Samoa", 'countries', 'listo' ),
-			'yem' => _x( "Yemen", 'countries', 'listo' ),
-			'zaf' => _x( "South Africa", 'countries', 'listo' ),
-			'zmb' => _x( "Zambia", 'countries', 'listo' ),
-			'zwe' => _x( "Zimbabwe", 'countries', 'listo' ),
+			'wlf' => '+681',
+			'wsm' => '+685',
+			'yem' => '+967',
+			'zaf' => '+27',
+			'zmb' => '+260',
+			'zwe' => '+263',
 		);
 	}
 
