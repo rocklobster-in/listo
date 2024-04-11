@@ -13,6 +13,22 @@ Subgroups:
 * `olympic`
 
 
+## Countries Alpha-2 to Alpha-3 code mapping
+
+The mapping table of the Alpha-2 codes (in keys) and the Alpha-3 codes (in values) based on ISO 3166-1.
+
+List code:
+* [`countries_a2a3`](./countries-a2a3.php)
+
+
+## Telephone country codes
+
+The list of ITU-T E.164 country calling codes.
+
+List code:
+* [`telephone_country_codes`](./telephone-country-codes.php)
+
+
 ## Currencies
 
 Currencies based on ISO 4217. Some special codes for funds, complementary currencies, precious metals and used in testing are excluded.
