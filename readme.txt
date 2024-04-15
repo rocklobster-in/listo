@@ -9,13 +9,24 @@ Stable tag: 1.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Listo is a simple plugin that supplies commonly used lists to other plugins and themes.
+Listo supplies commonly used lists.
 
 == Description ==
 
-Listo is a simple plugin that supplies other plugins and themes with commonly used lists (such as lists of countries, subdivisions of countries, and currencies). Listo is also able to filter list items based on defined subgroups. For example, Countries provides a list of countries and dependent territories based on the ISO 3166 standard (249 items), and its subgroup 'un' only includes members of the United Nations (193 items).
+Listo is a simple plugin that supplies other plugins and themes with [commonly used lists](https://github.com/rocklobster-in/listo/tree/trunk/modules#lists-and-subgroups).
 
-Listo currently supports [27 lists](https://github.com/takayukister/listo/tree/trunk/modules#lists-and-subgroups).
+= Usage =
+
+	$countries = listo(
+		// List type
+		'countries',
+		// Options
+		array(
+			'group' => 'un',
+			'orderby' => 'value',
+			'order' => 'DESC',
+		)
+	);
 
 == Installation ==
 
