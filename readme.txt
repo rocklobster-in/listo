@@ -35,18 +35,14 @@ Listo is a simple plugin that supplies other plugins and themes with [commonly u
 
 == Changelog ==
 
+= 1.8 =
+
+* Updates country names in modules/countries.php.
+* Adds support of the `orderby` and `order` options to `listo()`.
+* Adds modules/countries-a2a3.php as the mapping table of ISO 3166-1 Alpha-2 and Alpha-3 codes.
+* Adds modules/telephone-country-codes.php as the list of ITU-T E.164 country calling codes.
+* Requires WordPress 6.4+.
+
 = 1.7 =
 
 * Requires WordPress 6.2+ and PHP 7.4+.
-
-= 1.6 =
-
-* Removes the `switch_to_locale()` and `restore_previous_locale()` calls.
-
-= 1.5 =
-
-* Adds a module for subdivisions of Poland.
-
-= 1.4 =
-
-* Uses `switch_to_locale()` to switch locale.
