@@ -18,6 +18,7 @@ define( 'LISTO_MODULES_DIR', path_join( LISTO_PLUGIN_DIR, 'modules' ) );
 define( 'LISTO_LANGUAGES_DIR', path_join( LISTO_PLUGIN_DIR, 'languages' ) );
 
 require_once LISTO_PLUGIN_DIR . '/rest-api.php';
+require_once LISTO_PLUGIN_DIR . '/datalists/e164.php';
 
 interface Listo {
 	public static function items();
