@@ -65,6 +65,15 @@ class Listo_Manager {
 		return apply_filters( 'listo_list_types', $list_types );
 	}
 
+	public static function load_module( $type ) {
+		$mod = sanitize_file_name( str_replace( '_', '-', $type ) . '.php' );
+		$mod = path_join( LISTO_MODULES_DIR, $mod );
+
+		if ( file_exists( $mod ) ) {
+			require_once $mod;
+		}
+	}
+
 	public static function get_list_items( $type, $options = '' ) {
 		$options = wp_parse_args( $options, array(
 			'group' => '',
@@ -82,12 +91,7 @@ class Listo_Manager {
 		$class = $list_types[$type];
 
 		if ( ! class_exists( $class ) ) {
-			$mod = sanitize_file_name( str_replace( '_', '-', $type ) . '.php' );
-			$mod = path_join( LISTO_MODULES_DIR, $mod );
-
-			if ( file_exists( $mod ) ) {
-				require_once $mod;
-			}
+			self::load_module( $type );
 		}
 
 		if ( ! is_callable( array( $class, 'items' ) ) ) {

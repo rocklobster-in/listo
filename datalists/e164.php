@@ -6,7 +6,7 @@
  */
 
 function listo_datalist_e164() {
-	require_once path_join( LISTO_MODULES_DIR, 'countries-a2a3.php' );
+	Listo_Manager::load_module( 'countries_a2a3' );
 
 	$telephone_country_codes = listo( 'telephone_country_codes' );
 	$countries = listo( 'countries' );
