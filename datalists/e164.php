@@ -6,8 +6,9 @@
  */
 
 function listo_datalist_e164() {
+	require_once path_join( LISTO_MODULES_DIR, 'countries-a2a3.php' );
+
 	$telephone_country_codes = listo( 'telephone_country_codes' );
-	$countries_a2a3 = listo( 'countries_a2a3' );
 	$countries = listo( 'countries' );
 
 	echo '<datalist id="listo-e164">';
@@ -19,10 +20,7 @@ function listo_datalist_e164() {
 			continue;
 		}
 
-		$a2_code = array_search(
-			strtoupper( $a3_code ),
-			$countries_a2a3
-		);
+		$a2_code = Listo_Countries_A2A3::convert_a3_to_a2( $a3_code );
 
 		echo sprintf(
 			'<option value="%1$s " class="countrycode-%2$s">%3$s (%4$s)</option>',
