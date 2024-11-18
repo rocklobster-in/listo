@@ -33,6 +33,7 @@ class Listo_Manager {
 		$list_types = array(
 			'countries' => 'Listo_Countries',
 			'countries_a2a3' => 'Listo_Countries_A2A3',
+			'emoji_flags' => 'Listo_EmojiFlags',
 			'telephone_country_codes' => 'Listo_TelephoneCountryCodes',
 			'ar_subdivisions' => 'Listo_AR_Subdivisions',
 			'bo_subdivisions' => 'Listo_BO_Subdivisions',
