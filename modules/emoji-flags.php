@@ -277,4 +277,17 @@ class Listo_EmojiFlags implements Listo {
 	public static function groups() {
 		return array();
 	}
+
+	public static function get_html( $a2 ) {
+		$a2 = strtolower( $a2 );
+		$sequence = self::$items[$a2] ?? '';
+
+		if ( ! $sequence ) {
+			return $sequence;
+		}
+
+		$sequence = explode( ' ', $sequence );
+
+		return sprintf( '&#x%s;&#x%s;', ...$sequence );
+	}
 }
