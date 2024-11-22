@@ -5,7 +5,7 @@
  * @link https://en.wikipedia.org/wiki/E.164
  */
 
-function listo_datalist_e164() {
+function listo_print_datalist_e164() {
 	Listo_Manager::load_module( 'countries_a2a3' );
 	Listo_Manager::load_module( 'emoji_flags' );
 
@@ -35,7 +35,7 @@ function listo_datalist_e164() {
 	echo '</datalist>';
 }
 
-function listo_datalist_e164_noflag() {
+function listo_print_datalist_e164_noflag() {
 	$telephone_country_codes = listo( 'telephone_country_codes' );
 	$countries = listo( 'countries' );
 
