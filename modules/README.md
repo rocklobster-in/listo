@@ -21,6 +21,14 @@ List code:
 * [`countries_a2a3`](./countries-a2a3.php)
 
 
+## Unicode emoji flag sequences
+
+The mapping table of the ISO 3166-1 Alpha-2 codes (in keys) and the Unicode code points in hex format (in values).
+
+List code:
+* [`emoji_flags`](./emoji-flags.php)
+
+
 ## Telephone country codes
 
 The list of ITU-T E.164 country calling codes.
