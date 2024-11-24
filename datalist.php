@@ -5,6 +5,7 @@ add_shortcode( 'datalist',
 		$atts = shortcode_atts(
 			array(
 				'type' => '',
+				'html_id' => '',
 			),
 			$atts,
 			'listo_datalist'
@@ -18,7 +19,9 @@ add_shortcode( 'datalist',
 		);
 
 		if ( isset( $available_list_types[$atts['type']] ) ) {
-			return call_user_func( $available_list_types[$atts['type']] );
+			$options = $atts;
+			unset( $options['type'] );
+			return call_user_func( $available_list_types[$atts['type']], $options );
 		}
 	}
 );
