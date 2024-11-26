@@ -1,24 +1,54 @@
 <?php
 
+class Listo_DataList {
+
+	private static $list_types = array(
+		'telephone_country_codes' => array(
+			'callback' => 'listo_datalist_telephone_country_codes',
+		),
+		'telephone_country_codes_noflag' => array(
+			'callback' => 'listo_datalist_telephone_country_codes_noflag',
+		),
+	);
+
+	public static function is_available_list_type( $list_type ) {
+		return array_key_exists( $list_type, self::$list_types );
+	}
+
+	public static function get_callback( $list_type ) {
+		if ( ! self::is_available_list_type( $list_type ) ) {
+			return null;
+		}
+
+		$list_type = self::$list_types[$list_type];
+
+		return $list_type['callback'];
+	}
+
+}
+
+
 add_shortcode( 'datalist',
 	static function ( $atts, $content = null, $shortcode_tag = '' ) {
 		$atts = shortcode_atts(
 			array(
 				'type' => '',
+				'html_id' => '',
 			),
 			$atts,
 			'listo_datalist'
 		);
 
-		$available_list_types = array(
-			'telephone_country_codes' =>
-				'listo_datalist_telephone_country_codes',
-			'telephone_country_codes_noflag' =>
-				'listo_datalist_telephone_country_codes_noflag',
-		);
+		if ( Listo_DataList::is_available_list_type( $atts['type'] ) ) {
+			$options = array();
 
-		if ( isset( $available_list_types[$atts['type']] ) ) {
-			return call_user_func( $available_list_types[$atts['type']] );
+			if ( $atts['html_id'] ) {
+				$options['html_id'] = $atts['html_id'];
+			}
+
+			$callback = Listo_DataList::get_callback( $atts['type'] );
+
+			return call_user_func( $callback, $options );
 		}
 	}
 );
