@@ -4,7 +4,7 @@ Tags: list, countries, subdivisions, states, currencies
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Donate link: https://contactform7.com/donate/
-Stable tag: 1.8
+Stable tag: 1.9
 Requires at least: 6.6
 Requires PHP: 7.4
 Tested up to: 7.1
