@@ -1,13 +1,13 @@
 === Listo ===
-Contributors: takayukister, yordansoares
-Donate link: https://contactform7.com/donate/
+Contributors: rocklobsterinc, takayukister, yordansoares
 Tags: list, countries, subdivisions, states, currencies
-Tested up to: 6.7
-Requires at least: 6.6
-Requires PHP: 7.4
-Stable tag: 1.8
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Donate link: https://contactform7.com/donate/
+Stable tag: 1.8
+Requires at least: 6.6
+Requires PHP: 7.4
+Tested up to: 6.7
 
 Listo supplies commonly used lists.
 
