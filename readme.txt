@@ -4,10 +4,10 @@ Tags: list, countries, subdivisions, states, currencies
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Donate link: https://contactform7.com/donate/
-Stable tag: 1.8
+Stable tag: 1.9
 Requires at least: 6.6
 Requires PHP: 7.4
-Tested up to: 6.7
+Tested up to: 7.1
 
 Listo supplies commonly used lists.
 
@@ -35,17 +35,14 @@ Listo is a simple plugin that supplies other plugins and themes with [commonly u
 
 == Changelog ==
 
+= 1.9.1 =
+
+* Changes the author name to Rock Lobster Inc. (a Japan-based company that the original author, Takayuki Miyoshi, owns)
+* Confirmed WordPress 7.1 compatibility.
+
 = 1.9 =
 
 * New list module: `emoji_flags` --- Unicode emoji flag sequences
 * Introduces the `Listo_DataList` class and the `datalist` shortcode.
 * Adds the `telephone_country_codes` and `telephone_country_codes_noflag` data list types.
 * Adds utility methods to the `countries_a2a3` and `telephone_country_codes` list modules.
-
-= 1.8 =
-
-* Updates country names in modules/countries.php.
-* Adds support of the `orderby` and `order` options to `listo()`.
-* Adds modules/countries-a2a3.php as the mapping table of ISO 3166-1 Alpha-2 and Alpha-3 codes.
-* Adds modules/telephone-country-codes.php as the list of ITU-T E.164 country calling codes.
-* Requires WordPress 6.4+.
