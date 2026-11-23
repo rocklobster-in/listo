@@ -5,6 +5,8 @@
  * @link https://en.wikipedia.org/wiki/Regional_indicator_symbol
  */
 
+if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+
 class Listo_EmojiFlags implements Listo {
 	private function __construct() {}
 

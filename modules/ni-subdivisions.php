@@ -5,6 +5,8 @@
  * @link https://en.wikipedia.org/wiki/ISO_3166-2:NI
  */
 
+if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+
 class Listo_NI_Subdivisions implements Listo {
 	private function __construct() {}
 

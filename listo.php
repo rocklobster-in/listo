@@ -12,6 +12,8 @@
  * Requires PHP: 8.3
  */
 
+if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+
 define( 'LISTO_VERSION', '2.0-dev' );
 define( 'LISTO_PLUGIN_DIR', __DIR__ );
 define( 'LISTO_MODULES_DIR', path_join( LISTO_PLUGIN_DIR, 'modules' ) );

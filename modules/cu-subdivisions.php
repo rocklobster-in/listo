@@ -5,6 +5,8 @@
  * @link https://en.wikipedia.org/wiki/ISO_3166-2:CU
  */
 
+if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+
 class Listo_CU_Subdivisions implements Listo {
 	private function __construct() {}
 

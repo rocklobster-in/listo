@@ -5,6 +5,8 @@
  * @link https://en.wikipedia.org/wiki/Time_zone
  */
 
+if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+
 class Listo_Time_Zones implements Listo {
 	private function __construct() {}
 

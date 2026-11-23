@@ -1,5 +1,7 @@
 <?php
 
+if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+
 add_action( 'rest_api_init', 'listo_rest_api_init', 10, 0 );
 
 function listo_rest_api_init() {

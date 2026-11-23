@@ -5,6 +5,8 @@
  * @link https://en.wikipedia.org/wiki/E.164
  */
 
+if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+
 class Listo_TelephoneCountryCodes implements Listo {
 	private function __construct() {}
 
