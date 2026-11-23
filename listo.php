@@ -7,12 +7,14 @@
  * Author URI: https://github.com/rocklobster-in/
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
- * Version: 1.9.1
- * Requires at least: 6.6
- * Requires PHP: 7.4
+ * Version: 2.0-dev
+ * Requires at least: 7.1
+ * Requires PHP: 8.3
  */
 
-define( 'LISTO_VERSION', '1.9.1' );
+if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+
+define( 'LISTO_VERSION', '2.0-dev' );
 define( 'LISTO_PLUGIN_DIR', __DIR__ );
 define( 'LISTO_MODULES_DIR', path_join( LISTO_PLUGIN_DIR, 'modules' ) );
 define( 'LISTO_LANGUAGES_DIR', path_join( LISTO_PLUGIN_DIR, 'languages' ) );

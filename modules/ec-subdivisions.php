@@ -5,6 +5,8 @@
  * @link https://en.wikipedia.org/wiki/ISO_3166-2:EC
  */
 
+if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+
 class Listo_EC_Subdivisions implements Listo {
 	private function __construct() {}
 

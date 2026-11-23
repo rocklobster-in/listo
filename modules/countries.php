@@ -5,6 +5,8 @@
  * @link https://en.wikipedia.org/wiki/ISO_3166-1
  */
 
+if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+
 class Listo_Countries implements Listo {
 	private function __construct() {}
 

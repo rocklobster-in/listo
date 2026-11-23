@@ -8,6 +8,8 @@
  * @link https://en.wikipedia.org/wiki/ISO_4217
  */
 
+if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+
 class Listo_Currencies implements Listo {
 	private function __construct() {}
 
