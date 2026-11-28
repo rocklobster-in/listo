@@ -27,6 +27,17 @@ function listo_register_abilities() {
 			},
 		) )
 	);
+
+	wp_register_ability(
+		'listo/get-countries-a2a3',
+		listo_get_ability_args( array(
+			'label' => __( 'Get Country Code Mapping', 'listo' ),
+			'description' => __( "Returns a mapping table of the ISO 3166 country codes. The key is the country's Alpha-2 code; the value is the Alpha-3 code, respectively.", 'listo' ),
+			'execute_callback' => static function ( $options ) {
+				return listo( 'countries_a2a3', $options );
+			},
+		) )
+	);
 }
 
 function listo_get_ability_args( $args = array() ): array {
