@@ -81,7 +81,7 @@ class Listo_Manager {
 	public static function get_list_items( $type, $options = '' ) {
 		$options = wp_parse_args( $options, array(
 			'group' => '',
-			'locale' => 'en_US',
+			'locale' => determine_locale(),
 			'orderby' => 'key',
 			'order' => 'ASC',
 		) );
@@ -112,7 +112,11 @@ class Listo_Manager {
 			return self::$lists[$cloak_ticket];
 		}
 
+		switch_to_locale( $locale );
+
 		$items = call_user_func( array( $class, 'items' ) );
+
+		restore_previous_locale();
 
 		if ( $group and is_callable( array( $class, 'groups' ) ) ) {
 			$groups = call_user_func( array( $class, 'groups' ) );
