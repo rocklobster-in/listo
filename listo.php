@@ -19,6 +19,7 @@ define( 'LISTO_PLUGIN_DIR', __DIR__ );
 define( 'LISTO_MODULES_DIR', path_join( LISTO_PLUGIN_DIR, 'modules' ) );
 define( 'LISTO_LANGUAGES_DIR', path_join( LISTO_PLUGIN_DIR, 'languages' ) );
 
+require_once LISTO_PLUGIN_DIR . '/includes/abilities.php';
 require_once LISTO_PLUGIN_DIR . '/includes/rest-api.php';
 require_once LISTO_PLUGIN_DIR . '/includes/datalist.php';
 
