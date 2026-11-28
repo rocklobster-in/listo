@@ -19,17 +19,29 @@ add_action( 'wp_abilities_api_init', 'listo_register_abilities' );
 function listo_register_abilities() {
 	wp_register_ability(
 		'listo/get-countries',
-		array(
+		listo_get_ability_args( array(
 			'label' => __( 'Get Countries List', 'listo' ),
 			'description' => __( "Returns a list of countries and dependent territories based on the ISO 3166 standard.", 'listo' ),
-			'category' => 'standardized-dataset',
-			'output_schema' => array(
-				'type' => 'object',
-			),
-			'execute_callback' => static function () {
-				return listo( 'countries' );
+			'execute_callback' => static function ( $options ) {
+				return listo( 'countries', $options );
 			},
-			'permission_callback' => '__return_true',
-		)
+		) )
 	);
+}
+
+function listo_get_ability_args( $args = array() ): array {
+	return wp_parse_args( $args, array(
+		'category' => 'standardized-dataset',
+		'input_schema' => array(
+			'type' => array( 'object', 'null' ),
+		),
+		'output_schema' => array(
+			'type' => 'object',
+		),
+		'permission_callback' => '__return_true',
+		'annotations' => array(
+			'readonly' => true,
+			'destructive' => false,
+		),
+	) );
 }
