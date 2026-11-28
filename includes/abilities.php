@@ -38,6 +38,17 @@ function listo_register_abilities() {
 			},
 		) )
 	);
+
+	wp_register_ability(
+		'listo/get-emoji-flags',
+		listo_get_ability_args( array(
+			'label' => __( 'Get Unicode Emoji Flag Sequences', 'listo' ),
+			'description' => __( "Returns a list of Unicode emoji flag sequences.", 'listo' ),
+			'execute_callback' => static function ( $options ) {
+				return listo( 'emoji_flags', $options );
+			},
+		) )
+	);
 }
 
 function listo_get_ability_args( $args = array() ): array {
@@ -50,9 +61,11 @@ function listo_get_ability_args( $args = array() ): array {
 			'type' => 'object',
 		),
 		'permission_callback' => '__return_true',
-		'annotations' => array(
-			'readonly' => true,
-			'destructive' => false,
+		'meta' => array(
+			'annotations' => array(
+				'readonly' => true,
+				'destructive' => false,
+			),
 		),
 	) );
 }
